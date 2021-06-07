@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="icon" href="../assets/icon_128x.png">
+        <title>Converter+</title>
+    </head>
+    <body>
+        <ul class="nav">
+            <li><a class="icon" href="../index.html"><img src="../assets/icon_128x.png"></a></li> 
+            <li><a href="area.html">Area</a></li>
+            <li><a href="length.html">Length</a></li>
+            <li><a href="mass.html">Mass</a></li>
+            <li><a href="temperature.html">Temperature</a></li>
+            <li><a href="text.html">Text</a></li>
+            <li><a href="time.html">Time</a></li>
+            <li class="active"><a href="volume.html">Volume</a></li>
+            <li><a href="impressum.html">Impressum</a></li>
+        </ul>
+        
+        <div class="inputContainer">
+            <input type="text" id="number">
+            <select id="unitSelect">
+                <option value="0.000000001">mm³</option>
+                <option value="0.000001">cm³</option>
+                <option value="0.001">dm³</option>
+                <option value="1">m³</option>
+                <option value="1000000000">km³</option>
+                <option value="0.00001639">in³</option>
+                
+                <option value="0.000001">ml</option>
+                <option value="0.001">l</option>
+                <option value="1">hl</option>
+                
+                <option value="0.00454609">gal</option>
+                <option value="0.00056826125">pt</option>
+            </select>
+        </div>
+        
+        <section class="container">
+            <div class="cube">
+                <div id="mm³" class="number"></div>
+                <div class="unit">mm³</div>
+                <div class="copy">Click to copy</div>
+            </div>
+            
+            <div class="cube">
+                <div id="cm³" class="number"></div>
+                <div class="unit">cm³</div>
+                <div class="copy">Click to copy</div>
+            </div>
+            
+            <div class="cube">
+                <div id="dm³" class="number"></div>
+                <div class="unit">dm³</div>
+                <div class="copy">Click to copy</div>
+            </div>
+            
+            <div class="cube">
+                <div id="m³" class="number"></div>
+                <div class="unit">m³</div>
+                <div class="copy">Click to copy</div>
+            </div>
+            
+            <div class="cube">
+                <div id="km³" class="number"></div>
+                <div class="unit">km³</div>
+                <div class="copy">Click to copy</div>
+            </div>
+            
+
+            <div class="cube">
+                <div id="ml" class="number"></div>
+                <div class="unit">ml</div>
+                <div class="copy">Click to copy</div>
+            </div>
+            
+            <div class="cube">
+                <div id="l" class="number"></div>
+                <div class="unit">l</div>
+                <div class="copy">Click to copy</div>
+            </div>
+            
+
+            
+            <div class="cube">
+                <div id="hl" class="number"></div>
+                <div class="unit">hl</div>
+                <div class="copy">Click to copy</div>
+            </div>
+            
+            <div class="cube us">
+                <div id="in³" class="number"></div>
+                <div class="unit">in³</div>
+                <div class="copy">Click to copy</div>
+            </div>
+            
+            
+            <div class="cube us">
+                <div id="pt" class="number"></div>
+                <div class="unit">pt</div>
+                <div class="copy">Click to copy</div>
+            </div>
+            
+            <div class="cube us">
+                <div id="gal" class="number"></div>
+                <div class="unit">gal</div>
+                <div class="copy">Click to copy</div>
+            </div>
+            
+            
+        </section>
+        <script src="../js/script_volume.js"></script>
+    </body>
+</html>
+
+
+

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="icon" href="../assets/icon_128x.png">
+        <title>Converter+</title>
+    </head>
+    <body>
+        <ul class="nav">
+            <li><a class="icon" href="../index.html"><img src="../assets/icon_128x.png"></a></li> 
+            <li><a href="area.html">Area</a></li>
+            <li><a href="length.html">Length</a></li>
+            <li><a href="mass.html">Mass</a></li>
+            <li><a href="temperature.html">Temperature</a></li>
+            <li class="active"><a href="text.html">Text</a></li>
+            <li><a href="time.html">Time</a></li>
+            <li><a href="volume.html">Volume</a></li>
+            <li><a href="impressum.html">Impressum</a></li>
+            
+        </ul>
+        
+        <div class="inputContainer">
+            <input type="text" id="number">
+            <select id="unitSelect">
+                <option value="text">Text</option>
+                <option value="binary">Binary</option>
+                <option value="hex">Hex</option>
+            </select>
+        </div>
+        
+        <section class="container">
+            <div class="big-cube">
+                <div id="text" class="number"></div>
+                <div class="unit">Text</div>
+                <div class="copy">Click to copy</div>
+            </div>
+            
+            <div class="big-cube">
+                <div id="binary" class="number"></div>
+                <div class="unit">Binary</div>
+                <div class="copy">Click to copy</div>
+            </div>
+            
+            <div class="big-cube">
+                <div id="hex" class="number"></div>
+                <div class="unit">Hex</div>
+                <div class="copy">Click to copy</div>
+            </div>
+            
+        </section>
+        <script src="../js/script_text.js"></script>
+    </body>
+</html>
+
+
+

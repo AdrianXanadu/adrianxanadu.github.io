@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="icon" href="../assets/icon_128x.png">
+        <title>Converter+</title>
+    </head>
+    <body>
+        <ul class="nav">
+            <li><a class="icon" href="../index.html"><img src="../assets/icon_128x.png"></a></li> 
+            <li><a href="area.html">Area</a></li>
+            <li><a href="length.html">Length</a></li>
+            <li class="active"><a href="mass.html">Mass</a></li>
+            <li><a href="temperature.html">Temperature</a></li>
+            <li><a href="text.html">Text</a></li>
+            <li><a href="time.html">Time</a></li>
+            <li><a href="volume.html">Volume</a></li>
+            <li><a href="impressum.html">Impressum</a></li>
+        </ul>
+        
+        <div class="inputContainer">
+            <input type="text" id="number">
+            <select id="unitSelect">
+                <option value="0.000000001">ng</option>
+                <option value="0.000001">µg</option>
+                <option value="0.001">mg</option>
+                <option value="1">g</option>
+                <option value="10">dag</option>
+                <option value="1000">kg</option>
+                <option value="1000000">t</option>
+                <option value="453.5924">lb</option>
+                <option value="28.34952">oz</option>
+                <option value="6350.293">st</option>
+            </select>
+        </div>
+        
+        <section class="container">
+            <div class="cube">
+                <div id="ng" class="number"></div>
+                <div class="unit">ng</div>
+                <div class="copy">Click to copy</div>
+            </div>
+            
+            <div class="cube">
+                <div id="µg" class="number"></div>
+                <div class="unit">µg</div>
+                <div class="copy">Click to copy</div>
+            </div>
+            
+            <div class="cube">
+                <div id="mg" class="number"></div>
+                <div class="unit">mg</div>
+                <div class="copy">Click to copy</div>
+            </div>
+            
+            <div class="cube">
+                <div id="g" class="number"></div>
+                <div class="unit">g</div>
+                <div class="copy">Click to copy</div>
+            </div>
+            
+            <div class="cube">
+                <div id="dag" class="number"></div>
+                <div class="unit">dag</div>
+                <div class="copy">Click to copy</div>
+            </div>
+            
+            <div class="cube">
+                <div id="kg" class="number"></div>
+                <div class="unit">kg</div>
+                <div class="copy">Click to copy</div>
+            </div>
+            
+            <div class="cube">
+                <div id="t" class="number"></div>
+                <div class="unit">t</div>
+                <div class="copy">Click to copy</div>
+            </div>
+            
+            <div class="cube us">
+                <div id="lb" class="number"></div>
+                <div class="unit">lb</div>
+                <div class="copy">Click to copy</div>
+            </div>
+            
+            <div class="cube us">
+                <div id="oz" class="number"></div>
+                <div class="unit">oz</div>
+                <div class="copy">Click to copy</div>
+            </div>
+            
+            <div class="cube us">
+                <div id="st" class="number"></div>
+                <div class="unit">st</div>
+                <div class="copy">Click to copy</div>
+            </div>
+            
+        </section>
+        <script src="../js/script_mass.js"></script>
+    </body>
+</html>
+
+
+
