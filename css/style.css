@@ -116,7 +116,7 @@ p {
 }
 
 .image > a > img, .content > img {
-    height: 200px;
+    height: auto;
     width: 20em;
     border-radius: 20px;
     
@@ -155,9 +155,7 @@ p {
 .cube {
     width: 20vw;
     height: 10em;
-    
     min-width: 20em;
-    
     border-radius: 20px;
     margin: 20px; 
     position: relative;
@@ -217,7 +215,7 @@ p {
         float: none;
     }
     .nav li img {
-        display:inline-block;
+        display: inline-block;
     }
     .cube {
         width: 80vw;
